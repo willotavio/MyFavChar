@@ -1,0 +1,9 @@
+CREATE DATABASE myfavchar;
+USE myfavchar;
+
+CREATE TABLE favoriteChar(
+    cd_character INT PRIMARY KEY AUTO_INCREMENT,
+    nm_character VARCHAR(90) NOT NULL,
+    gd_character FLOAT NOT NULL,
+    ds_character VARCHAR(90) NOT NULL
+);
